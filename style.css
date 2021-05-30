@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.delete {
+  font-size: 30px;
+  position: relative;
+  top: 7vh;
+  left: 20px;
+}
+.delete:hover {
+  color: red;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(73, 72, 72);
+  text-shadow: 1px 1px black;
+}
+body {
+  background: #ebebee;
+}
+.icons {
+  font-size: 35px;
+  margin: 30px;
+  margin-left: 30px;
+
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.icons li a {
+  color: #1799eb;
+  padding: 10px;
+}
+.icons li:hover {
+  opacity: 0.6;
+}
+.image:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.image {
+  width: 200px;
+  height: 160px;
+}
+.warning {
+  color: red;
+}
+#course-list {
+  font-weight: bold;
+}
+table th {
+  font-size: 20px;
+  color: darkslategrey;
+}
+.gocourse {
+  width: 100vw !important;
+}
+.cours {
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: 50vw;
+  position: relative;
+  left: 0;
+}
+
+#course-list tr td p {
+  padding-top: 60px;
+  width: 150px;
+  padding-right: 0;
+}
+.Promotion {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 45px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 20px !important ;
+}
+label {
+  font-weight: bold;
+}
+.table {
+  position: relative;
+  right: 1%;
+}
+.table td,
+.table th {
+  padding: 0;
+}
+#course-list tr td p {
+  width: 90%;
+}
